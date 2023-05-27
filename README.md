@@ -3,9 +3,9 @@ This simple script is made to find and display the 15th digit of an IMEI when pr
 
 Works with Python 3.10
 
-It doesn't need any thirt-party module.
+It doesn't need any third-party module.
 
-# Usage
+## Usage
 imeiCalculator.py [-h] [-v] imei
 
 positional arguments:
