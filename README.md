@@ -20,11 +20,11 @@ options:
 
 ### Simple mode :
 
-Input
++ Input
 
 python3 imeiCalculator.py 12345678912345
 
-Output
++ Output
 
 ```bash
 The 15th IMEI digit is : 8
@@ -33,11 +33,11 @@ The complete IMEI number is : 123456789123458
 
 ### Verbose mode :
 
-Input
++ Input
 
 python3 imeiCalculator.py 12345678912345 -v
 
-Output
++ Output
 
 ```bash
 Luhn key = 0 ---> no match
