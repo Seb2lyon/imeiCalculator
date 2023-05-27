@@ -29,8 +29,10 @@ python3 imeiCalculator.py 12345678912345
 
 + Output
 
+```
 The 15th IMEI digit is : 8
 The complete IMEI number is : 123456789123458
+```
 
 
 ### Verbose mode :
@@ -43,6 +45,7 @@ python3 imeiCalculator.py 12345678912345 -v
 
 + Output
 
+```
 Luhn key = 0 ---> no match
 Luhn key = 1 ---> no match
 Luhn key = 2 ---> no match
@@ -56,3 +59,4 @@ Luhn key = 9 ---> no match
 
 The 15th IMEI digit is : 8
 The complete IMEI number is : 123456789123458
+```
