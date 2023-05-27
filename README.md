@@ -6,7 +6,7 @@ Run on Python 3
 Doesn't need any third-party module.
 
 ## Usage
-```bash
+```
 imeiCalculator.py [-h] [-v] imei
 
 positional arguments:
@@ -15,31 +15,35 @@ positional arguments:
 options:
   -h, --help     show this help message and exit
   -v, --verbose  display the analysis of the Luhn algorithm.
-  ```
+```
 ## Examples
 
 ### Simple mode :
 
 + Input
 
+```bash
 python3 imeiCalculator.py 12345678912345
+```
 
 + Output
 
-```bash
+```
 The 15th IMEI digit is : 8
 The complete IMEI number is : 123456789123458
- ```
+```
 
 ### Verbose mode :
 
 + Input
 
+```bash
 python3 imeiCalculator.py 12345678912345 -v
+```
 
 + Output
 
-```bash
+```
 Luhn key = 0 ---> no match
 Luhn key = 1 ---> no match
 Luhn key = 2 ---> no match
@@ -53,3 +57,4 @@ Luhn key = 9 ---> no match
 
 The 15th IMEI digit is : 8
 The complete IMEI number is : 123456789123458
+```
