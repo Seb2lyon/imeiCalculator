@@ -9,11 +9,9 @@ It doesn't need any third-party module.
 imeiCalculator.py [-h] [-v] imei
 
 positional arguments:
-
   imei           provide the 14 first digits of an IMEI.
 
 options:
-
   -h, --help     show this help message and exit
   -v, --verbose  display the analysis of the Luhn algorithm.
 
